@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import DetailsCards from "./DetailsCards";
-import Photo1 from "../../resources/Patient1.jpg";
+import Photo1 from "../../Images/patient1.jpg";
 import { Box } from "@mui/material";
 
 const DetailsContainer = styled.div`

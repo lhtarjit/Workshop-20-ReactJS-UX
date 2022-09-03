@@ -1,10 +1,11 @@
 import "./App.css";
-import DetailsCards from "./Components/PatientsInformation/DetailsCards";
-
+import NavBar from "../src/Components/NavBar/NavBar";
+import PatientContainer from "./Components/PatientContainer/PatientContainer";
 function App() {
   return (
     <div className="App">
-      <DetailsCards />
+      <NavBar />
+      <PatientContainer />
     </div>
   );
 }
