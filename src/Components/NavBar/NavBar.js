@@ -97,24 +97,24 @@ const NavBar = () => {
                     color: "white",
                     backgroundColor: "#42a5f5",
                     fontSize: "14px",
-                    fontWeight: 300,
+                    fontWeight: 500,
                     paddingY: "25px",
                   }}
                 >
                   PATIENTS
                 </MenuItem>
                 <MenuItem
-                  sx={{ color: "black", fontSize: "14px", fontWeight: 300 }}
+                  sx={{ color: "black", fontSize: "14px", fontWeight: 700 }}
                 >
-                  CALENDER
+                  CALENDAR
                 </MenuItem>
                 <MenuItem
-                  sx={{ color: "black", fontSize: "14px", fontWeight: 300 }}
+                  sx={{ color: "black", fontSize: "14px", fontWeight: 700 }}
                 >
                   USERS
                 </MenuItem>
                 <MenuItem
-                  sx={{ color: "black", fontSize: "14px", fontWeight: 300 }}
+                  sx={{ color: "black", fontSize: "14px", fontWeight: 700 }}
                 >
                   BILLING
                 </MenuItem>

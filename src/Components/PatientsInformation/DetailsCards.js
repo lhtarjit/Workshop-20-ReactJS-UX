@@ -38,7 +38,7 @@ const PatKeyInfo = styled.div`
 const Patinfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
+  margin-right: 17px;
 `;
 
 const ClearWraper = styled.div`
@@ -109,13 +109,13 @@ const DetailsCards = () => {
           </PatKeyInfo>
           <Patinfo>
             <PatientInformation>456-159-789</PatientInformation>
-            <PatientInformation>sara@mail.com</PatientInformation>
+            <PatientInformation>sara@gmail.com</PatientInformation>
             <PatientInformation>Female</PatientInformation>
             <PatientInformation>45</PatientInformation>
           </Patinfo>
         </GridItem>
         <GridItem>
-          <PatKeyInfo Infowid="150px">
+          <PatKeyInfo Infowid="180px">
             <CommonData>Surgery Type:</CommonData>
             <CommonData>Surgery Date:</CommonData>
             <CommonData>Height(cm):</CommonData>

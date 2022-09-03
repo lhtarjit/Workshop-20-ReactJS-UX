@@ -138,8 +138,8 @@ const PatientMedicalCondition = () => {
             <Value>
               <Box>No</Box>
               <Box>
-                <DeleteIcon />
-                <CreateIcon />
+                <DeleteIcon style={{ marginRight: "15px" }} />
+                <CreateIcon style={{ marginRight: "15px" }} />
               </Box>
             </Value>
           </GridLinks>
