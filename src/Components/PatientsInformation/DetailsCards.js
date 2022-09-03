@@ -67,7 +67,8 @@ const Isclear = styled.div`
 
 const GridContainer = styled.div`
   display: grid;
-  gap: 40px;
+  gap: 85px;
+  text-align: left;
   grid-template-columns: repeat(4, auto);
   @media (max-width: 1600px) {
     grid-template-columns: repeat(3, auto);

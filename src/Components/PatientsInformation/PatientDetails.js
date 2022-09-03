@@ -20,8 +20,8 @@ const TitleContainer = styled.div`
 `;
 
 const Label = styled.div`
-  font-size: 19px;
-  font-weight: 800px;
+  font-size: 18px;
+  font-weight: 600;
 `;
 
 const Wrap = styled.div`

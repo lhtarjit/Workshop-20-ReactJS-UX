@@ -23,6 +23,7 @@ const LinkItems = styled.div`
   align-items: center;
   text-align: center;
   font-weight: 500;
+  text-align: left;
 `;
 
 const LinkWrap = styled.div`
@@ -30,6 +31,7 @@ const LinkWrap = styled.div`
   flex-direction: row;
   margin-left: 50px;
   width: 56%;
+  text-align: left;
   @media (max-width: 900px) {
     display: none;
   }
@@ -37,6 +39,7 @@ const LinkWrap = styled.div`
 
 const Card = styled.div`
   margin: 45px;
+  text-align: left;
   @media (max-width: 800px) {
     margin: 20px;
   }
@@ -87,8 +90,8 @@ const PatientMedicalCondition = () => {
   ];
 
   const surgList = [
-    { title: "First Surgery", description: "Yes" },
-    { title: "Family History of surgical complications", description: "Yes" },
+    { title: "First Time Surgery", description: "Yes" },
+    { title: "Family History of surgical complications ?", description: "Yes" },
     {
       title: "If Yes, Please provide more details",
       description:
@@ -115,11 +118,11 @@ const PatientMedicalCondition = () => {
         <ContainerGrid>
           <GridLinks>
             <KeyItem>Surgery Type </KeyItem>
-            <ValueItem>Shoulder recontruction</ValueItem>
+            <ValueItem>Shoulder Reconstruction</ValueItem>
           </GridLinks>
           <GridLinks>
             <KeyItem>Date </KeyItem>
-            <ValueItem>january 2008</ValueItem>
+            <ValueItem>January 2008</ValueItem>
           </GridLinks>
           <GridLinks>
             <KeyItem>Anesthesia Type</KeyItem>
