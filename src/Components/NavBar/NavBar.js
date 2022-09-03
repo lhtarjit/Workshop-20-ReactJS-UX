@@ -141,7 +141,7 @@ const NavBar = () => {
                 <img
                   src={NavBarImage}
                   alt="Docotrs Logo"
-                  style={{ width: "50px", borderRadius: "25px" }}
+                  style={{ width: "30px", borderRadius: "25px" }}
                 />
               </Box>
             </Box>
