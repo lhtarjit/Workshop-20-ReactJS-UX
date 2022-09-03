@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../../resources/Logo.jpg";
-import NavBarImage from "../../resources/navBar-logo.jpg";
+import Logo from "../../Images/Logo.jpg";
+import NavBarImage from "../../Images/navBar-logo.jpg";
 import MenuIcon from "@mui/icons-material/Menu";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import {
