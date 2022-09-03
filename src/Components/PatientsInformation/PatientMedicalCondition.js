@@ -13,7 +13,7 @@ const MedicalContainer = styled.div`
 `;
 
 const LinkItems = styled.div`
-  color: grey;
+  color: black;
   background: white;
   border: 1px solid #f7f7f7;
   padding: 10px 5px;
@@ -23,7 +23,6 @@ const LinkItems = styled.div`
   align-items: center;
   text-align: center;
   font-weight: 500;
-  text-align: left;
 `;
 
 const LinkWrap = styled.div`
@@ -83,8 +82,8 @@ const Value = styled.div`
 const PatientMedicalCondition = () => {
   const items = [
     "List of prior Surgeries",
-    "List of medical Diagnosis",
-    "List of Mediatons",
+    "List of Medical Diagnosis",
+    "List of Medications",
     "Airway Evaluation",
     "Anesthesia Clearance and Recommendations",
   ];
@@ -147,7 +146,7 @@ const PatientMedicalCondition = () => {
         </ContainerGrid>
         <Box>
           <Button
-            style={{ marginBlock: "20px" }}
+            style={{ marginBlock: "40px", height: "50px" }}
             variant="contained"
             startIcon={<AddIcon />}
           >

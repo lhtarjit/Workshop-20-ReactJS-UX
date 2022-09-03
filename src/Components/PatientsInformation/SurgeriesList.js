@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Wrap = styled.div`
   width: 500px;
   margin-bottom: 20px;
+  font-weight: 500;
   @media (max-width: 900px) {
     width: 100%;
   }
