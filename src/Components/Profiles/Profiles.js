@@ -50,7 +50,7 @@ const InputBox = styled.input`
 const Container = styled.div`
   background-color: #e8f5fe;
   background-size: cover;
-  height: 116vh;
+  height: 100%;
   padding: 5px;
 `;
 const Header = styled.div`
